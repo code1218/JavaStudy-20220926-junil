@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class Student {
-    private static int autoNumber = 20220001;
+    public static int autoNumber = 20220001;
 
     private int studentCode;
     private String studentName;
@@ -22,3 +22,19 @@ public class Student {
         this.studentName = studentName;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
